@@ -17,11 +17,24 @@ ament_target_dependencies(publisher rclcpp std_msgs)
 add_executable(subscriber src/subscriber.cpp)
 ament_target_dependencies(subscriber rclcpp std_msgs)
 
+add_executable(publisher_rpm src/publisher_rpm.cpp)
+ament_target_dependencies(publisher_rpm rclcpp std_msgs)
+
+add_executable(subscriber_rpm src/subscriber_rpm.cpp)
+ament_target_dependencies(subscriber_rpm rclcpp std_msgs)
+
 # install executables
 install(TARGETS
     publisher
     subscriber
+    publisher_rpm
+    subscriber_rpm
     DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+        launch
+        DESTINATION share/${PROJECT_NAME}
 )
 
 ament_package()
