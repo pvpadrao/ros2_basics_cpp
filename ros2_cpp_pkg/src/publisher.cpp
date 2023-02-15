@@ -10,7 +10,7 @@ class HelloWorldPubNode : public rclcpp::Node
 		HelloWorldPubNode() : Node("hello_world_pub_node")
 		{
 			publisher_ = this->create_publisher<std_msgs::msg::String>(
-				"hello_world", 10);
+			 "hello_world", 10);
 
 			timer_ = this->create_wall_timer(1s, 
 			std::bind(&HelloWorldPubNode::publish_hello_world, this));
@@ -20,7 +20,7 @@ class HelloWorldPubNode : public rclcpp::Node
 		void publish_hello_world()
 		{
 			auto message = std_msgs::msg::String();
-			message.data = "Hello, World" + std::to_string(counter_);
+			message.data = "Hello, World " + std::to_string(counter_);
 			publisher_->publish(message);
 			counter_++;
 
