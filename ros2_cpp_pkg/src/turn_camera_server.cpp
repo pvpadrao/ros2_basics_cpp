@@ -1,6 +1,8 @@
 #include "rclcpp/rclcpp.hpp"
 #include "ros2_cpp_pkg/srv/turn_camera.hpp"
 #include <iostream>
+#include <opencv2/imgcodecs.hpp>
+#include <cv_bridge/cv_bridge.h>
 
 // creating a shortcut
 typedef ros2_cpp_pkg::srv::TurnCamera TurnCameraSrv;
@@ -19,6 +21,8 @@ public:
             )
         );
         std::cout << "Turn Camera Service Running... " << std::endl;
+       
+
     }
 
 private:
@@ -44,8 +48,19 @@ private:
 
         }
 
-        // get the image 
+        // constructs a std::string object image_path that represents the file path of the image file to be sent in the service response
         std::string image_path = ws_dir_ + "src/ros2_basics_cpp/ros2_cpp_pkg/images" + std::to_string((int) closest_num) + ".png";
+        // prints the image_path to the console for debugging purposes.
+        std::cout << image_path << std::endl;
+        // reads the image from the specified file path using the OpenCV and stores it in a cv::Mat object named image
+        auto image = cv::imread(image_path);
+        // creates an Image message that can be sent in the service response. It converts the cv::Mat object image to an Image message
+        auto image_ptr = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", image).toImageMsg();
+        // The response pointer is assumed to point to an instance of the service response message, 
+        // and camera_image is a field of the message of type sensor_msgs::msg::Image. 
+        // The * operator is used to dereference the image_ptr shared pointer and obtain a reference to the underlying Image message
+        response->camera_image = *image_ptr;
+      
 
     }
 
