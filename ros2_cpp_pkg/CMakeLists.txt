@@ -17,6 +17,7 @@ find_package(cv_bridge REQUIRED)
 # generate custom interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
     "srv/OddEvenCheck.srv"
+    "srv/TurnCamera.srv"
     DEPENDENCIES
     sensor_msgs
     ADD_LINTER_TESTS
