@@ -1,6 +1,8 @@
 #include "rclcpp/rclcpp.hpp"
 #include "ros2_cpp_pkg/srv/odd_even_check.hpp"
 
+
+// creating a shortcut
 typedef ros2_cpp_pkg::srv::OddEvenCheck OddEvenCheckSrv;
 
 
