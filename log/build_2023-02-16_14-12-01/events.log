@@ -1,0 +1,407 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (ros2_cpp_pkg) JobQueued: {'identifier': 'ros2_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000230] (ros2_cpp_pkg) JobStarted: {'identifier': 'ros2_cpp_pkg'}
+[0.013158] (ros2_cpp_pkg) JobProgress: {'identifier': 'ros2_cpp_pkg', 'progress': 'cmake'}
+[0.013413] (ros2_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/lclhome/plope113/ros2_cpp_ws/ros2_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg'], 'cwd': '/lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg', 'env': OrderedDict([('USER', 'plope113'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/lclhome/plope113/ros2_ws/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/lclhome/plope113'), ('OLDPWD', '/lclhome/plope113'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:canberra-gtk-module'), ('MANAGERPID', '2110'), ('SYSTEMD_EXEC_PID', '2478'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/58067/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '94576'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/lclhome/plope113/ros2_misc_ws/install:/lclhome/plope113/rpi_bot_ws/install:/lclhome/plope113/turtlebot3_ws/install:/lclhome/plope113/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'plope113'), ('JOURNAL_STREAM', '8:36463'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'plope113'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/lclhome/plope113/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/ecs238-d669:@/tmp/.ICE-unix/2337,unix/ecs238-d669:/tmp/.ICE-unix/2337'), ('INVOCATION_ID', '0aee6d9061a04e32bcc17432e666e63d'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/58067'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/58067/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/58067/keyring/ssh'), ('AMENT_PREFIX_PATH', '/lclhome/plope113/ros2_ws/install/my_robot_bringup:/lclhome/plope113/ros2_ws/install/turtlesim_project:/lclhome/plope113/ros2_ws/install/my_py_pkg:/lclhome/plope113/ros2_ws/install/my_cpp_pkg:/lclhome/plope113/ros2_ws/install/robot_interfaces:/lclhome/plope113/ros2_ws/install/my_robot_controller:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_simulations:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_gazebo:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9e70378a-6c11-4d51-aca8-b49ef8468df0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/58067/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('SPEECHD_PORT', '64627'), ('PWD', '/lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/lclhome/plope113/ros2_ws/install/turtlesim_project/lib/python3.10/site-packages:/lclhome/plope113/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/lclhome/plope113/ros2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/lclhome/plope113/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube/lib/python3.10/site-packages:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot/lib/python3.10/site-packages:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/lclhome/plope113/ros2_ws/install/my_robot_bringup:/lclhome/plope113/ros2_ws/install/my_cpp_pkg:/lclhome/plope113/ros2_ws/install/robot_interfaces:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_simulations:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_gazebo:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_fake_node:/lclhome/plope113/ros2_ws/install/turtlesim_project:/lclhome/plope113/ros2_ws/install/my_py_pkg:/lclhome/plope113/ros2_ws/install/my_robot_controller:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot:/opt/ros/humble')]), 'shell': False}
+[0.057676] (ros2_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.099022] (-) TimerEvent: {}
+[0.105318] (ros2_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.111124] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.164136] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.170458] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.170688] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.171033] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.173532] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199111] (-) TimerEvent: {}
+[0.236121] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.242481] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.242750] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.243118] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.246156] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299219] (-) TimerEvent: {}
+[0.394427] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.399316] (-) TimerEvent: {}
+[0.481952] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499416] (-) TimerEvent: {}
+[0.538932] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.545233] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.554431] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.568550] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.588621] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599511] (-) TimerEvent: {}
+[0.657767] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.661237] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.695935] (ros2_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.699614] (-) TimerEvent: {}
+[0.706834] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.762660] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.762887] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.799737] (-) TimerEvent: {}
+[0.819302] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.820056] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.899847] (-) TimerEvent: {}
+[0.969013] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.980354] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.999940] (-) TimerEvent: {}
+[1.100141] (-) TimerEvent: {}
+[1.112323] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.114865] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.200250] (-) TimerEvent: {}
+[1.300513] (-) TimerEvent: {}
+[1.370014] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.373038] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.376003] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.379236] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.400604] (-) TimerEvent: {}
+[1.500777] (-) TimerEvent: {}
+[1.601002] (-) TimerEvent: {}
+[1.701215] (-) TimerEvent: {}
+[1.785577] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.801308] (-) TimerEvent: {}
+[1.901518] (-) TimerEvent: {}
+[1.945395] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.966170] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[1.968506] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.991500] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[1.991702] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.991787] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.991842] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.001612] (-) TimerEvent: {}
+[2.010053] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.080689] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[2.083594] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[2.095246] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.101708] (-) TimerEvent: {}
+[2.140023] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.142453] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg\n'}
+[2.151972] (ros2_cpp_pkg) CommandEnded: {'returncode': 0}
+[2.152535] (ros2_cpp_pkg) JobProgress: {'identifier': 'ros2_cpp_pkg', 'progress': 'build'}
+[2.153879] (ros2_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg', 'env': OrderedDict([('USER', 'plope113'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/lclhome/plope113/ros2_ws/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/lclhome/plope113'), ('OLDPWD', '/lclhome/plope113'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:canberra-gtk-module'), ('MANAGERPID', '2110'), ('SYSTEMD_EXEC_PID', '2478'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/58067/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '94576'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/lclhome/plope113/ros2_misc_ws/install:/lclhome/plope113/rpi_bot_ws/install:/lclhome/plope113/turtlebot3_ws/install:/lclhome/plope113/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'plope113'), ('JOURNAL_STREAM', '8:36463'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'plope113'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/lclhome/plope113/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/ecs238-d669:@/tmp/.ICE-unix/2337,unix/ecs238-d669:/tmp/.ICE-unix/2337'), ('INVOCATION_ID', '0aee6d9061a04e32bcc17432e666e63d'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/58067'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/58067/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/58067/keyring/ssh'), ('AMENT_PREFIX_PATH', '/lclhome/plope113/ros2_ws/install/my_robot_bringup:/lclhome/plope113/ros2_ws/install/turtlesim_project:/lclhome/plope113/ros2_ws/install/my_py_pkg:/lclhome/plope113/ros2_ws/install/my_cpp_pkg:/lclhome/plope113/ros2_ws/install/robot_interfaces:/lclhome/plope113/ros2_ws/install/my_robot_controller:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_simulations:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_gazebo:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9e70378a-6c11-4d51-aca8-b49ef8468df0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/58067/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('SPEECHD_PORT', '64627'), ('PWD', '/lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/lclhome/plope113/ros2_ws/install/turtlesim_project/lib/python3.10/site-packages:/lclhome/plope113/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/lclhome/plope113/ros2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/lclhome/plope113/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube/lib/python3.10/site-packages:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot/lib/python3.10/site-packages:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/lclhome/plope113/ros2_ws/install/my_robot_bringup:/lclhome/plope113/ros2_ws/install/my_cpp_pkg:/lclhome/plope113/ros2_ws/install/robot_interfaces:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_simulations:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_gazebo:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_fake_node:/lclhome/plope113/ros2_ws/install/turtlesim_project:/lclhome/plope113/ros2_ws/install/my_py_pkg:/lclhome/plope113/ros2_ws/install/my_robot_controller:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot:/opt/ros/humble')]), 'shell': False}
+[2.187606] (ros2_cpp_pkg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.196879] (ros2_cpp_pkg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.197173] (ros2_cpp_pkg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[2.198972] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_rpm.dir/src/subscriber_rpm.cpp.o\x1b[0m\n'}
+[2.199170] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[2.199305] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/publisher_rpm.dir/src/publisher_rpm.cpp.o\x1b[0m\n'}
+[2.201802] (-) TimerEvent: {}
+[2.207793] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_copy_ros2_cpp_pkg\n'}
+[2.301892] (-) TimerEvent: {}
+[2.402147] (-) TimerEvent: {}
+[2.502389] (-) TimerEvent: {}
+[2.568325] (ros2_cpp_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.569166] (ros2_cpp_pkg) StdoutLine: {'line': b'creating ros2_cpp_pkg.egg-info\n'}
+[2.569407] (ros2_cpp_pkg) StdoutLine: {'line': b'writing ros2_cpp_pkg.egg-info/PKG-INFO\n'}
+[2.569618] (ros2_cpp_pkg) StdoutLine: {'line': b'writing dependency_links to ros2_cpp_pkg.egg-info/dependency_links.txt\n'}
+[2.569809] (ros2_cpp_pkg) StdoutLine: {'line': b'writing top-level names to ros2_cpp_pkg.egg-info/top_level.txt\n'}
+[2.570097] (ros2_cpp_pkg) StdoutLine: {'line': b"writing manifest file 'ros2_cpp_pkg.egg-info/SOURCES.txt'\n"}
+[2.572642] (ros2_cpp_pkg) StdoutLine: {'line': b"reading manifest file 'ros2_cpp_pkg.egg-info/SOURCES.txt'\n"}
+[2.573460] (ros2_cpp_pkg) StdoutLine: {'line': b"writing manifest file 'ros2_cpp_pkg.egg-info/SOURCES.txt'\n"}
+[2.602489] (-) TimerEvent: {}
+[2.609464] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_build_ros2_cpp_pkg_egg\n'}
+[2.642586] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 13%] Built target ros2_cpp_pkg__cpp\n'}
+[2.655320] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.655541] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.655747] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.702588] (-) TimerEvent: {}
+[2.726338] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/ros2_cpp_pkg__rosidl_generator_c.dir/rosidl_generator_c/ros2_cpp_pkg/srv/detail/odd_even_check__functions.c.o\x1b[0m\n'}
+[2.802685] (-) TimerEvent: {}
+[2.807485] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libros2_cpp_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[2.855445] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target ros2_cpp_pkg__rosidl_generator_c\n'}
+[2.869176] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.902778] (-) TimerEvent: {}
+[3.003064] (-) TimerEvent: {}
+[3.048644] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_cpp_pkg/srv/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[3.103166] (-) TimerEvent: {}
+[3.109126] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_cpp_pkg/srv/detail/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[3.120620] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_cpp_pkg/srv/detail/dds_fastrtps/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[3.203268] (-) TimerEvent: {}
+[3.303556] (-) TimerEvent: {}
+[3.325266] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_cpp_pkg/srv/detail/odd_even_check__type_support_c.cpp.o\x1b[0m\n'}
+[3.403662] (-) TimerEvent: {}
+[3.429750] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libros2_cpp_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.486510] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 39%] Built target ros2_cpp_pkg__rosidl_typesupport_cpp\n'}
+[3.499161] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.503753] (-) TimerEvent: {}
+[3.604037] (-) TimerEvent: {}
+[3.654425] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libros2_cpp_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.697072] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libros2_cpp_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.704140] (-) TimerEvent: {}
+[3.753201] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 46%] Built target ros2_cpp_pkg__rosidl_typesupport_introspection_cpp\n'}
+[3.766064] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.804235] (-) TimerEvent: {}
+[3.812060] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 48%] Built target ros2_cpp_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[3.816884] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libros2_cpp_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.836298] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o\x1b[0m\n'}
+[3.904337] (-) TimerEvent: {}
+[3.937216] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 53%] Built target ros2_cpp_pkg__rosidl_typesupport_fastrtps_c\n'}
+[3.949410] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_cpp_pkg/srv/detail/odd_even_check__type_support.c.o\x1b[0m\n'}
+[3.961914] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o\x1b[0m\n'}
+[4.003094] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libros2_cpp_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.004414] (-) TimerEvent: {}
+[4.050644] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 60%] Built target ros2_cpp_pkg__rosidl_typesupport_introspection_c\n'}
+[4.104509] (-) TimerEvent: {}
+[4.159407] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_cpp_pkg/srv/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[4.204603] (-) TimerEvent: {}
+[4.228398] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libros2_cpp_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.282489] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 65%] Built target ros2_cpp_pkg__rosidl_typesupport_c\n'}
+[4.304706] (-) TimerEvent: {}
+[4.306074] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 65%] Built target ros2_cpp_pkg\n'}
+[4.331907] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.404809] (-) TimerEvent: {}
+[4.505211] (-) TimerEvent: {}
+[4.605508] (-) TimerEvent: {}
+[4.705799] (-) TimerEvent: {}
+[4.806081] (-) TimerEvent: {}
+[4.906383] (-) TimerEvent: {}
+[4.960561] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 67%] Built target ros2_cpp_pkg__py\n'}
+[4.985648] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/ros2_cpp_pkg__rosidl_generator_py.dir/rosidl_generator_py/ros2_cpp_pkg/srv/_odd_even_check_s.c.o\x1b[0m\n'}
+[5.006494] (-) TimerEvent: {}
+[5.106910] (-) TimerEvent: {}
+[5.147436] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_cpp_pkg/libros2_cpp_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[5.203044] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 72%] Built target ros2_cpp_pkg__rosidl_generator_py\n'}
+[5.207011] (-) TimerEvent: {}
+[5.227559] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_cpp_pkg/_ros2_cpp_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.229140] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_cpp_pkg/_ros2_cpp_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.307121] (-) TimerEvent: {}
+[5.378152] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.382298] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.407233] (-) TimerEvent: {}
+[5.435452] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 81%] Built target ros2_cpp_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[5.436500] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 81%] Built target ros2_cpp_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.460186] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ros2_cpp_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_cpp_pkg/_ros2_cpp_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.507344] (-) TimerEvent: {}
+[5.607650] (-) TimerEvent: {}
+[5.612761] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.668297] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 86%] Built target ros2_cpp_pkg__rosidl_typesupport_c__pyext\n'}
+[5.707760] (-) TimerEvent: {}
+[5.808342] (-) TimerEvent: {}
+[5.908612] (-) TimerEvent: {}
+[6.008936] (-) TimerEvent: {}
+[6.109270] (-) TimerEvent: {}
+[6.209597] (-) TimerEvent: {}
+[6.309908] (-) TimerEvent: {}
+[6.410224] (-) TimerEvent: {}
+[6.510591] (-) TimerEvent: {}
+[6.610905] (-) TimerEvent: {}
+[6.711217] (-) TimerEvent: {}
+[6.811531] (-) TimerEvent: {}
+[6.911819] (-) TimerEvent: {}
+[7.012110] (-) TimerEvent: {}
+[7.112404] (-) TimerEvent: {}
+[7.212711] (-) TimerEvent: {}
+[7.312996] (-) TimerEvent: {}
+[7.413293] (-) TimerEvent: {}
+[7.513596] (-) TimerEvent: {}
+[7.613879] (-) TimerEvent: {}
+[7.714179] (-) TimerEvent: {}
+[7.797970] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable service_client\x1b[0m\n'}
+[7.814275] (-) TimerEvent: {}
+[7.914573] (-) TimerEvent: {}
+[7.948033] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 88%] Built target service_client\n'}
+[8.014671] (-) TimerEvent: {}
+[8.114956] (-) TimerEvent: {}
+[8.128689] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[8.176013] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable publisher_rpm\x1b[0m\n'}
+[8.215060] (-) TimerEvent: {}
+[8.315486] (-) TimerEvent: {}
+[8.400861] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 93%] Built target publisher_rpm\n'}
+[8.415584] (-) TimerEvent: {}
+[8.415897] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 93%] Built target publisher\n'}
+[8.473639] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable service_server\x1b[0m\n'}
+[8.515694] (-) TimerEvent: {}
+[8.610243] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 95%] Built target service_server\n'}
+[8.615811] (-) TimerEvent: {}
+[8.716083] (-) TimerEvent: {}
+[8.816350] (-) TimerEvent: {}
+[8.916638] (-) TimerEvent: {}
+[9.016996] (-) TimerEvent: {}
+[9.117274] (-) TimerEvent: {}
+[9.217566] (-) TimerEvent: {}
+[9.317825] (-) TimerEvent: {}
+[9.418109] (-) TimerEvent: {}
+[9.518376] (-) TimerEvent: {}
+[9.618651] (-) TimerEvent: {}
+[9.718957] (-) TimerEvent: {}
+[9.819216] (-) TimerEvent: {}
+[9.919475] (-) TimerEvent: {}
+[10.019720] (-) TimerEvent: {}
+[10.119961] (-) TimerEvent: {}
+[10.220235] (-) TimerEvent: {}
+[10.320513] (-) TimerEvent: {}
+[10.420778] (-) TimerEvent: {}
+[10.521046] (-) TimerEvent: {}
+[10.621327] (-) TimerEvent: {}
+[10.682304] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[10.721425] (-) TimerEvent: {}
+[10.821683] (-) TimerEvent: {}
+[10.921943] (-) TimerEvent: {}
+[10.996333] (ros2_cpp_pkg) StdoutLine: {'line': b'[ 97%] Built target subscriber\n'}
+[11.022035] (-) TimerEvent: {}
+[11.122296] (-) TimerEvent: {}
+[11.222593] (-) TimerEvent: {}
+[11.322834] (-) TimerEvent: {}
+[11.423098] (-) TimerEvent: {}
+[11.523386] (-) TimerEvent: {}
+[11.548383] (ros2_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_rpm\x1b[0m\n'}
+[11.623515] (-) TimerEvent: {}
+[11.723768] (-) TimerEvent: {}
+[11.824019] (-) TimerEvent: {}
+[11.845402] (ros2_cpp_pkg) StdoutLine: {'line': b'[100%] Built target subscriber_rpm\n'}
+[11.854631] (ros2_cpp_pkg) CommandEnded: {'returncode': 0}
+[11.915006] (ros2_cpp_pkg) JobProgress: {'identifier': 'ros2_cpp_pkg', 'progress': 'install'}
+[11.922205] (ros2_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg'], 'cwd': '/lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg', 'env': OrderedDict([('USER', 'plope113'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/lclhome/plope113/ros2_ws/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/lclhome/plope113'), ('OLDPWD', '/lclhome/plope113'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:canberra-gtk-module'), ('MANAGERPID', '2110'), ('SYSTEMD_EXEC_PID', '2478'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/58067/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '94576'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/lclhome/plope113/ros2_misc_ws/install:/lclhome/plope113/rpi_bot_ws/install:/lclhome/plope113/turtlebot3_ws/install:/lclhome/plope113/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'plope113'), ('JOURNAL_STREAM', '8:36463'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'plope113'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/lclhome/plope113/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/ecs238-d669:@/tmp/.ICE-unix/2337,unix/ecs238-d669:/tmp/.ICE-unix/2337'), ('INVOCATION_ID', '0aee6d9061a04e32bcc17432e666e63d'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/58067'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/58067/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/58067/keyring/ssh'), ('AMENT_PREFIX_PATH', '/lclhome/plope113/ros2_ws/install/my_robot_bringup:/lclhome/plope113/ros2_ws/install/turtlesim_project:/lclhome/plope113/ros2_ws/install/my_py_pkg:/lclhome/plope113/ros2_ws/install/my_cpp_pkg:/lclhome/plope113/ros2_ws/install/robot_interfaces:/lclhome/plope113/ros2_ws/install/my_robot_controller:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_simulations:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_gazebo:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9e70378a-6c11-4d51-aca8-b49ef8468df0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/58067/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('SPEECHD_PORT', '64627'), ('PWD', '/lclhome/plope113/ros2_cpp_ws/build/ros2_cpp_pkg'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/var/lib/snapd/desktop'), ('PYTHONPATH', '/lclhome/plope113/ros2_ws/install/turtlesim_project/lib/python3.10/site-packages:/lclhome/plope113/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/lclhome/plope113/ros2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/lclhome/plope113/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube/lib/python3.10/site-packages:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot/lib/python3.10/site-packages:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/lclhome/plope113/ros2_ws/install/my_robot_bringup:/lclhome/plope113/ros2_ws/install/my_cpp_pkg:/lclhome/plope113/ros2_ws/install/robot_interfaces:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_simulations:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_gazebo:/lclhome/plope113/turtlebot3_ws/install/turtlebot3_fake_node:/lclhome/plope113/ros2_ws/install/turtlesim_project:/lclhome/plope113/ros2_ws/install/my_py_pkg:/lclhome/plope113/ros2_ws/install/my_robot_controller:/lclhome/plope113/ros2_misc_ws/install/articulated_robotics_youtube:/lclhome/plope113/rpi_bot_ws/install/vison_rpi_bot:/lclhome/plope113/rpi_bot_ws/install/vision_rpi_bot:/opt/ros/humble')]), 'shell': False}
+[11.924113] (-) TimerEvent: {}
+[11.928015] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.928140] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ament_index/resource_index/rosidl_interfaces/ros2_cpp_pkg\n'}
+[11.928263] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg\n'}
+[11.928377] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/msg\n'}
+[11.928451] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.928525] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv\n'}
+[11.928631] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/odd_even_check.h\n'}
+[11.928698] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail\n'}
+[11.928748] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__struct.h\n'}
+[11.928812] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__functions.c\n'}
+[11.928877] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__functions.h\n'}
+[11.928943] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__type_support.h\n'}
+[11.929123] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/environment/library_path.sh\n'}
+[11.929245] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/environment/library_path.dsv\n'}
+[11.929415] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_generator_c.so\n'}
+[11.929771] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_generator_c.so" to ""\n'}
+[11.929853] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg\n'}
+[11.930000] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/msg\n'}
+[11.930058] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.930135] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv\n'}
+[11.930187] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail\n'}
+[11.930236] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h\n'}
+[11.930284] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.930497] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.930609] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg\n'}
+[11.930667] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv\n'}
+[11.930762] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/odd_even_check.hpp\n'}
+[11.930814] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail\n'}
+[11.930879] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__struct.hpp\n'}
+[11.930929] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__builder.hpp\n'}
+[11.930990] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__traits.hpp\n'}
+[11.931072] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg\n'}
+[11.931150] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/msg\n'}
+[11.931199] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.931276] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv\n'}
+[11.931338] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail\n'}
+[11.931404] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/dds_fastrtps\n'}
+[11.931452] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.931513] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.931868] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.931932] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg\n'}
+[11.932004] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/msg\n'}
+[11.932052] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.932137] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv\n'}
+[11.932187] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail\n'}
+[11.932246] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h\n'}
+[11.932294] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__type_support.c\n'}
+[11.932354] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_introspection_c.so\n'}
+[11.932809] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.932895] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_c.so\n'}
+[11.933206] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_c.so" to ""\n'}
+[11.933335] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg\n'}
+[11.933441] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv\n'}
+[11.933493] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail\n'}
+[11.933541] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__type_support.cpp\n'}
+[11.933615] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/include/ros2_cpp_pkg/ros2_cpp_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.933666] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.933949] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.934018] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_cpp.so\n'}
+[11.934354] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[11.934425] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/environment/pythonpath.sh\n'}
+[11.934552] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/environment/pythonpath.dsv\n'}
+[11.934681] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg-0.0.0-py3.10.egg-info\n'}
+[11.934777] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.934862] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.934946] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.935027] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.935156] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg\n'}
+[11.935220] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.935321] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/srv\n'}
+[11.935389] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/srv/_odd_even_check.py\n'}
+[11.935480] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/srv/__init__.py\n'}
+[11.935566] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/srv/_odd_even_check_s.c\n'}
+[11.935704] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/_ros2_cpp_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.935783] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.935887] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.935989] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/__init__.py\n'}
+[11.936059] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/_ros2_cpp_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.936134] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/_ros2_cpp_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[11.936228] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/libros2_cpp_pkg__rosidl_generator_py.so\n'}
+[11.966005] (ros2_cpp_pkg) StdoutLine: {'line': b"Listing '/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg'...\n"}
+[11.966136] (ros2_cpp_pkg) StdoutLine: {'line': b"Compiling '/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/__init__.py'...\n"}
+[11.966195] (ros2_cpp_pkg) StdoutLine: {'line': b"Listing '/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/srv'...\n"}
+[11.966247] (ros2_cpp_pkg) StdoutLine: {'line': b"Compiling '/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/srv/__init__.py'...\n"}
+[11.966298] (ros2_cpp_pkg) StdoutLine: {'line': b"Compiling '/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/srv/_odd_even_check.py'...\n"}
+[11.969738] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.970079] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.970297] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.970635] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.970849] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.971181] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/local/lib/python3.10/dist-packages/ros2_cpp_pkg/ros2_cpp_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.971329] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_generator_py.so\n'}
+[11.971584] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/libros2_cpp_pkg__rosidl_generator_py.so" to ""\n'}
+[11.971734] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/srv/OddEvenCheck.idl\n'}
+[11.971868] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/srv/OddEvenCheck.srv\n'}
+[11.971964] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/srv/OddEvenCheck_Request.msg\n'}
+[11.972022] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/srv/OddEvenCheck_Response.msg\n'}
+[11.972097] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/publisher\n'}
+[11.973258] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/publisher" to ""\n'}
+[11.973406] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/subscriber\n'}
+[11.976262] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/subscriber" to ""\n'}
+[11.976378] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/publisher_rpm\n'}
+[11.977337] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/publisher_rpm" to ""\n'}
+[11.977500] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/subscriber_rpm\n'}
+[11.980316] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/subscriber_rpm" to ""\n'}
+[11.980460] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/service_server\n'}
+[11.981246] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/service_server" to ""\n'}
+[11.981390] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/service_client\n'}
+[11.982011] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/lib/ros2_cpp_pkg/service_client" to ""\n'}
+[11.982099] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/launch\n'}
+[11.982156] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/launch/rpm_node.launch.py\n'}
+[11.982347] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_cpp_pkg\n'}
+[11.982520] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_cpp_pkg\n'}
+[11.982682] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[11.982760] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[11.982883] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/environment/path.sh\n'}
+[11.982973] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/environment/path.dsv\n'}
+[11.983043] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/local_setup.bash\n'}
+[11.983112] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/local_setup.sh\n'}
+[11.983222] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/local_setup.zsh\n'}
+[11.983338] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/local_setup.dsv\n'}
+[11.983483] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/package.dsv\n'}
+[11.983611] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ament_index/resource_index/packages/ros2_cpp_pkg\n'}
+[11.983745] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_generator_cExport.cmake\n'}
+[11.983900] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.984008] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.984087] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.984191] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_generator_cppExport.cmake\n'}
+[11.984326] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.984489] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.984690] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.984843] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.984937] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkg__rosidl_typesupport_cExport.cmake\n'}
+[11.985009] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.985080] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.985177] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.985315] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[11.985464] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.985600] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_generator_pyExport.cmake\n'}
+[11.985756] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/export_ros2_cpp_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.985918] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.985997] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.986069] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.986145] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.986271] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.986374] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.986474] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.986594] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkgConfig.cmake\n'}
+[11.986680] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/cmake/ros2_cpp_pkgConfig-version.cmake\n'}
+[11.986794] (ros2_cpp_pkg) StdoutLine: {'line': b'-- Installing: /lclhome/plope113/ros2_cpp_ws/install/ros2_cpp_pkg/share/ros2_cpp_pkg/package.xml\n'}
+[11.988724] (ros2_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.024217] (-) TimerEvent: {}
+[12.076711] (ros2_cpp_pkg) JobEnded: {'identifier': 'ros2_cpp_pkg', 'rc': 0}
+[12.077350] (-) EventReactorShutdown: {}

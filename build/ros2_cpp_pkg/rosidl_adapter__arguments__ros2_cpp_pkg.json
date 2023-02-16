@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_cpp_pkg",
+  "non_idl_tuples": [
+    "/lclhome/plope113/ros2_cpp_ws/ros2_cpp_pkg:srv/OddEvenCheck.srv"
+  ]
+}
