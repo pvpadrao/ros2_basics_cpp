@@ -37,6 +37,10 @@ add_executable(service_server src/service_server.cpp)
 ament_target_dependencies(service_server rclcpp std_msgs)
 target_link_libraries(service_server "${cpp_typesupport_target}")
 
+add_executable(service_client src/service_client.cpp)
+ament_target_dependencies(service_client rclcpp std_msgs)
+target_link_libraries(service_client "${cpp_typesupport_target}")
+
 # install executables
 install(TARGETS
     publisher
@@ -44,6 +48,7 @@ install(TARGETS
     publisher_rpm
     subscriber_rpm
     service_server
+    service_client
     DESTINATION lib/${PROJECT_NAME}
 )
 
