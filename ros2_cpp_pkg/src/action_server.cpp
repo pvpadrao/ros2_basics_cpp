@@ -35,6 +35,7 @@ public:
          std::bind(&NavigateActionServerNode::handle_accepted, this,
          std::placeholders::_1)
       );
+      std::cout << "Navigate Action Server is Running..." << std::endl;
    }
 private:
    // creating handle_goal callback
@@ -50,7 +51,7 @@ private:
       std::cout << "Received goal point: ("
       << goal->goal_point.x << ","
       << goal->goal_point.y << ","
-      << goal->goal_point.z << ","
+      << goal->goal_point.z << ")"
       << std::endl;
       
       return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
@@ -76,6 +77,7 @@ private:
    void execute(const std::shared_ptr<GoalHandle> goal_handle)
    {
       std::cout << "Executing Goal " << std::endl;
+      auto start_time =rclcpp::Clock().now();
       const auto goal = goal_handle->get_goal();
       auto feedback = std::make_shared<NavigateAction::Feedback>();
       auto result = std::make_shared<NavigateAction::Result>();
@@ -96,6 +98,9 @@ private:
 
       }
 
+      result->elapsed_time = (rclcpp::Clock().now() - start_time).seconds();
+      goal_handle->succeed(result);
+      std::cout << "Goal Suceceeded! " << std::endl;
    }
     
    // defining callback function to update robot position
