@@ -47,6 +47,14 @@ add_executable(service_client src/service_client.cpp)
 ament_target_dependencies(service_client rclcpp std_msgs)
 target_link_libraries(service_client "${cpp_typesupport_target}")
 
+add_executable(turn_camera_server src/turn_camera_server.cpp)
+ament_target_dependencies(turn_camera_server rclcpp std_msgs sensor_msgs OpenCV cv_bridge)
+target_link_libraries(turn_camera_server "${cpp_typesupport_target}")
+
+add_executable(turn_camera_client src/turn_camera_client.cpp)
+ament_target_dependencies(turn_camera_client rclcpp std_msgs sensor_msgs OpenCV cv_bridge)
+target_link_libraries(turn_camera_client "${cpp_typesupport_target}")
+
 # install executables
 install(TARGETS
     publisher
@@ -55,6 +63,8 @@ install(TARGETS
     subscriber_rpm
     service_server
     service_client
+    turn_camera_server
+    turn_camera_client
     DESTINATION lib/${PROJECT_NAME}
 )
 
