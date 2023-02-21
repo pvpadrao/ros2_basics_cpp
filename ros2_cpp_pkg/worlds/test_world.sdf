@@ -1,6 +1,14 @@
 <sdf version ="1.7">
     <world name="test_world">
-
+        <include>
+            <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
+        </include>
+        <!-- <include>
+            <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane</uri>
+        </include> -->
+        <include>
+            <uri>/home/paulopadrao/ros2_cpp_ws/src/ros2_basics_cpp/ros2_cpp_pkg/models/ground_plane/ground_plane.sdf</uri>
+        </include>
     </world>
 </sdf>
     
